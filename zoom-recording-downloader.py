@@ -153,6 +153,7 @@ def list_recordings(email):
             email), headers=AUTHORIZATION_HEADER, params=post_data)
         recordings_data = response.json()
         recordings.extend(recordings_data['meetings'])
+        print(f'\t Getting recording details for {email}.......')
     return recordings
 
 
