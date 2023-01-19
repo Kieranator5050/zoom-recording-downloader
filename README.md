@@ -43,8 +43,14 @@ Open the **zoom-recording-downloader.py** file using your editor of choice, and 
 
       COMPLETED_MEETING_IDS_LOG = 'completed-downloads.log'
 
+### Windows
 Run command:
 
+```sh
+python zoom-recording-downloader.py
+```
+
+### Linux
 ```sh
 python3 zoom-recording-downloader.py
 ```
